@@ -229,18 +229,7 @@ int main() {
     int i;
     int j;
 
-    // for (j = 0; j <= 7; j++) push(vector, j + 1); 
-    push(vector, 1);
-    push(vector, 1);
-    push(vector, 2);
-    // get(vector, 7);
-    // insert(vector, 2, 100);
-    removeValue(vector, 2);
-    // pop(vector);
-    // prepend(vector, 98);
-    // int index = find(vector, 8);
-
-    // printf("Index : %i\n", index);
+    for (j = 0; j <= 7; j++) push(vector, j + 1); 
 
     if (is_empty(vector)){
         printf("Vector is empty\n");
